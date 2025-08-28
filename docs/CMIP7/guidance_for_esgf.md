@@ -19,12 +19,14 @@ For new or exisiting ESGF node installations, first please read the [following d
 **Requirements, setup and usage documentation**
 
 **Software Stack**
-The ESGF software stack requires Linux RedHat Enterprise or Rocky/Alma distributions. Administrators must have full sudo privileges to root access or a Kubernetes Cluster
-The services are meant to run on [webserver-grade hardware](www.exaple.com) _need a practical example here_. For data nodes, storage holding your data to share must be mounted on the node. 
+The ESGF software stack requires Linux RedHat Enterprise or Rocky/Alma distributions. Administrators must have full sudo privileges to root access or a Kubernetes Cluster.
+The services are meant to run on [webserver-grade hardware](www.exaple.com) _need a practical example here with costing estimate!_. 
+For data-sharing nodes the storage holding your data must be mounted on the node. 
+
+**ESGF Docker** instructions and any issuse can be [found here](https://github.com/ESGF/esgf-docker/).
 
 **Ansible** 
 Legacy documentation is available [here](https://esgf.github.io/esgf-ansible/intro/intro.html) _is this still valid?_
-
 
 ### 1.3 How to configure 
 ## 2. Preparation for publication
