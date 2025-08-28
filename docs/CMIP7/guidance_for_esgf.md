@@ -14,7 +14,7 @@ The ESGF Data Node software stack enables sites hosting earth system data to mak
 
 **New and exisiting installations**
 
-For new or exisiting ESGF node installations, first please read the [following document](www.esgf.com)_needs updating webpage!_on ESGF policies, as this will influence the type of installation you need to deploy. 
+For new or exisiting ESGF node installations, first please read the [following document](www.esgf.com) __needs updating webpage!__ on ESGF policies, as this will influence the type of installation you need to deploy. 
 ### 1.2 How to install
 **Requirements, setup and usage documentation**
 
