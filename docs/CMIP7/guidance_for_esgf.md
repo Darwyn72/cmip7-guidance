@@ -10,6 +10,7 @@ All information on ESGF can be found at [this website](https://esgf.github.io/)
 ### 1.1 ESGF NG Software location
 **Description**
 The ESGF Data Node software stack enables sites hosting earth system data to make it available to the community over several transfer protocols including http(s). ~~Index nodes enable search for hosted data via data publishing to the index, and these nodes include a search API and web frontend~~. Identity nodes manage user accounts. Nodes run as Docker containers and can be deployed via Ansible Playbooks or Helm Charts in a Kubernetes environment
+
 **New and exisiting installations**
 
 For new or exisiting ESGF node installations, first please read the [following document](www.esgf.com) _needs updating webpage!_on ESGF policies, as this will influence the type of installation you need to deploy. 
