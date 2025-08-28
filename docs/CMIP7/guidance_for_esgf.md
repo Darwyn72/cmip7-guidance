@@ -6,7 +6,7 @@ title: CMIP7 Participation Guidance for Data Managers
 # CMIP7 Participation for Data Managers
 
 ## 1. Installation and configuration
-All information on ESGF can be found at [this website](https://esgf.github.io/)
+All information on ESGF can be found at [this website](https://esgf.github.io/) > out-of-date
 ### 1.1 ESGF Software location
 ### 1.2 How to install
 ### 1.3 How to configure 
