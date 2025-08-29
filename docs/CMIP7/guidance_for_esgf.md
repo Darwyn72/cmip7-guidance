@@ -33,7 +33,7 @@ Legacy documentation is available [here](https://esgf.github.io/esgf-ansible/int
 To install the Metagrid UI for end-users to search and download data, read the documentation [here](https://metagrid.readthedocs.io/en/latest/) and see the Github repo [here](https://github.com/aims-group/metagrid)_don't know if these links need updating_?
 
 ## 2. Dataset publication 
-### Description 
+### Requirements 
 Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x) does not need to run on the Data Node it does require a _Data mount_ for the software to access data files. 
 
 ### Publisher introduction 
@@ -41,13 +41,11 @@ The esg-publisher or _esgcet_ Python package contains a collection of command-li
 The basic publication process takes several steps with some optional steps. Publisher functionality is available via several submodles/classes in the package.
 Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en/stable/intro.html) and [Github issues page](https://github.com/ESGF/esg-publisher/issues)
 
-### 2.1 Publsiher software installation 
+### 2.1 ESG-Publisher software installation 
 ### Requirements 
-A python environment, eg. create one using venv, conda (no longer free) or miniforge/mamba.
-
-Mountpoint to located data on the same host as publisher software installation, so the publisher scan utility (eg. autocurator) has access.
-
-Basic dataset information provided via the esg mapfile format. The most popular approach is using the esgf-prepare/esgmapfile utility.
+1. A python environment, e.g. create one using venv, conda, miniforge/mamba etc. 
+2. Mountpoint to located data on the same host as publisher software installation, so the publisher scan utility (eg. autocurator) has access.
+3. Basic dataset information provided via the esg mapfile format. The most popular approach is using the esgf-prepare/esgmapfile utility.
 
 ### 2.2 Dataset publication
 
