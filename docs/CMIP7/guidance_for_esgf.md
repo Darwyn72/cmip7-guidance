@@ -33,13 +33,13 @@ Legacy documentation is available [here](https://esgf.github.io/esgf-ansible/int
 To install the Metagrid UI for end-users to search and download data, read the documentation [here](https://metagrid.readthedocs.io/en/latest/) and see the Github repo [here](https://github.com/aims-group/metagrid)_don't know if these links need updating_?
 
 ## 2. Dataset publication 
-### Requirements 
+**Requirements** 
 Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x onwards) does not need to run on the Data Node it does require a _Data mount_ for the software to access data files. 
 
 ### 2.1 Dataset preparation 
-The ESGF publication process requires robust and effective data management, which can also be a burden for data managers. However, the ESGF esgprep toolbox is a piece of software that enables data preparation according to ESGF best practices. Esgprep allows the data providers and datanode managers to easily prepare their data for publishing to an ESGF node - it is a standalone toolbox.  It can be used to fetch required configuration files, apply the Data Reference Syntax on local filesystems and/or generate mapfiles for ESGF publication.
+The ESGF publication process requires robust and effective data management, which can also be a burden for data managers. However, the ESGF esgprep toolbox is a piece of software that enables data preparation according to ESGF best practices. Esgprep allows the data providers and data node managers to easily prepare their data for publishing to an ESGF node - it is a standalone toolbox. It can be used to fetch required configuration files, apply the Data Reference Syntax on local filesystems and/or generate mapfiles for ESGF publication.
 
-Full details of _esgprep_ and instructions provided by the team at Institut Pierre-Simon Laplace (IPSL) can be found [here](https://esgf.github.io/esgf-prepare/)
+Full details of _esgprep_ and instructions for use provided by the team at Institut Pierre-Simon Laplace (IPSL) can be found [here](https://esgf.github.io/esgf-prepare/)
 
 ### 2.2 Publisher introduction 
 The esg-publisher or _esgcet_ Python package contains a collection of command-line utilities to scan, manipulate and push dataset metadata to an ESGF index node. 
@@ -57,6 +57,8 @@ Full details of the dataset publication process using _pip install_ to install _
 
 ## 3. Dataset retraction
 
+
 ### 3.1 Retraction process
+The _esgunpublish_ command retracts, or, upon specification, deletes a specified dataset(s). The output of this command is either a success or failure message accompanied with the id of the dataset that was retracted. **Exercise caution** when deleting datasets. If replicas have been made or if you will be republishing, **you should retract** rather than delete outright. Follow the instructions [here](https://esg-publisher.readthedocs.io/en/stable/esgunpublish.html) and for an example, check out the [Jupyter notebook](https://nbviewer.org/github/ESGF/esg-publisher/blob/main/notebooks/unpublish-list.ipynb)
 
 ## 4. Errata and data versioning
