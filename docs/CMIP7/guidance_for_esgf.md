@@ -35,6 +35,7 @@ To install the Metagrid UI for end-users to search and download data, read the d
 
 ## 2. Dataset publication 
 **Requirements** 
+
 Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x onwards) does not need to run on the Data Node it does require a _Data mount_ for the software to access data files. 
 
 ### 2.1 Dataset preparation 
@@ -49,6 +50,7 @@ Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en
 
 ### 2.3 ESG-Publisher software installation 
 **Requirements** 
+
 1. A python environment, e.g. create one using venv, conda, miniforge/mamba etc. 
 2. Mountpoint map to data on the same host as the publisher software installation, so the publisher scan utility (eg. autocurator) has access.
 3. Basic dataset information provided via the esg mapfile format. For example using the esgf-prepare/esgmapfile utility.
