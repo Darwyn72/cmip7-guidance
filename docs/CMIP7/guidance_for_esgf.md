@@ -7,6 +7,9 @@ title: CMIP7 Participation Guidance for Data Managers
 
 ## 1. Installation and configuration
 All information on Earth System Grid Federation (ESGF) can be found [here](https://esgf.github.io/) _this needs updating?_
+
+_Does this section need a) information about QC procedures for Data Managers and b) graphic of the ESGF NG setup (Forrest/Phil)_
+
 ### 1.1 ESGF Software
 **Description**
 
