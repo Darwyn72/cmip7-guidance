@@ -14,7 +14,7 @@ The ESGF Data Node software stack enables sites hosting earth system data to mak
 
 **New and exisiting installations**
 
-For new or exisiting ESGF node installations, first read the [following document](www.esgf.com) _needs updated link!__ on ESGF policies, as this will influence the type of installation you need to deploy. 
+For new or exisiting ESGF node installations, first read the [following document](www.esgf.com) _needs updated link!_ on ESGF policies, as this will influence the type of installation you need to deploy. 
 
 ### 1.2 How to install
 **Requirements, setup and usage documentation**
@@ -30,18 +30,27 @@ For data-sharing nodes the storage holding your data must be mounted on the node
 Legacy documentation is available [here](https://esgf.github.io/esgf-ansible/intro/intro.html) _is this still valid?_
 
 **Metagrid user interface**
-To install the Metagrid UI for end-users to search and download data, read the documentation [here](https://metagrid.readthedocs.io/en/latest/) and see the Github repo [here](https://github.com/aims-group/metagrid)__don't know if these links need updating_?
+To install the Metagrid UI for end-users to search and download data, read the documentation [here](https://metagrid.readthedocs.io/en/latest/) and see the Github repo [here](https://github.com/aims-group/metagrid)_don't know if these links need updating_?
 
 ## 2. Dataset publication 
-### Pre-requisites
-Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x) does not need to run on the Data Node it does require a __Data mount_ for the software to access data files. 
+### Description 
+Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x) does not need to run on the Data Node it does require a _Data mount_ for the software to access data files. 
 
 ### Publisher introduction 
-The esg-publisher or __esgcet_ Python package contains a collection of command-line utilities to scan, manipulate and push dataset metadata to an ESGF index node. 
-The publication process takes several steps with some optional steps. Publisher functionality is available via several submodles/classes in the package.
-Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en/stable/intro.html) and 
+The esg-publisher or _esgcet_ Python package contains a collection of command-line utilities to scan, manipulate and push dataset metadata to an ESGF index node. 
+The basic publication process takes several steps with some optional steps. Publisher functionality is available via several submodles/classes in the package.
+Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en/stable/intro.html) and [Github issues page](https://github.com/ESGF/esg-publisher/issues)
 
-### 2.1 How to prepare your data for publication 
+### 2.1 Publsiher software installation 
+### Requirements 
+A python environment, eg. create one using venv, conda (no longer free) or miniforge/mamba.
+
+Mountpoint to located data on the same host as publisher software installation, so the publisher scan utility (eg. autocurator) has access.
+
+Basic dataset information provided via the esg mapfile format. The most popular approach is using the esgf-prepare/esgmapfile utility.
+
+### 2.2 Dataset publication
+
 
 ## 3. Dataset retraction
 ### 3.1 Retraction process
