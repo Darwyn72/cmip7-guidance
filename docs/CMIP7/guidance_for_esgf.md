@@ -34,23 +34,29 @@ To install the Metagrid UI for end-users to search and download data, read the d
 
 ## 2. Dataset publication 
 ### Requirements 
-Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x) does not need to run on the Data Node it does require a _Data mount_ for the software to access data files. 
+Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x onwards) does not need to run on the Data Node it does require a _Data mount_ for the software to access data files. 
 
-### Publisher introduction 
+### 2.1 Dataset preparation 
+The ESGF publication process requires robust and effective data management, which can also be a burden for data managers. However, the ESGF esgprep toolbox is a piece of software that enables data preparation according to ESGF best practices. Esgprep allows the data providers and datanode managers to easily prepare their data for publishing to an ESGF node - it is a standalone toolbox.  It can be used to fetch required configuration files, apply the Data Reference Syntax on local filesystems and/or generate mapfiles for ESGF publication.
+
+Full details of _esgprep_ and instructions provided by the team at Institut Pierre-Simon Laplace (IPSL) can be found [here](https://esgf.github.io/esgf-prepare/)
+
+### 2.2 Publisher introduction 
 The esg-publisher or _esgcet_ Python package contains a collection of command-line utilities to scan, manipulate and push dataset metadata to an ESGF index node. 
 The basic publication process takes several steps with some optional steps. Publisher functionality is available via several submodles/classes in the package.
 Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en/stable/intro.html) and [Github issues page](https://github.com/ESGF/esg-publisher/issues)
 
-### 2.1 ESG-Publisher software installation 
-### Requirements 
+### 2.3 ESG-Publisher software installation 
+**Requirements** 
 1. A python environment, e.g. create one using venv, conda, miniforge/mamba etc. 
-2. Mountpoint to located data on the same host as publisher software installation, so the publisher scan utility (eg. autocurator) has access.
-3. Basic dataset information provided via the esg mapfile format. The most popular approach is using the esgf-prepare/esgmapfile utility.
+2. Mountpoint map to data on the same host as the publisher software installation, so the publisher scan utility (eg. autocurator) has access.
+3. Basic dataset information provided via the esg mapfile format. For example using the esgf-prepare/esgmapfile utility.
 
-### 2.2 Dataset publication
-
+### 2.4 Dataset publication
+Full details of the dataset publication process using _pip install_ to install _esgcet_ can be found [here](https://esg-publisher.readthedocs.io/en/stable/install.html)
 
 ## 3. Dataset retraction
+
 ### 3.1 Retraction process
 
 ## 4. Errata and data versioning
