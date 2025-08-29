@@ -32,11 +32,18 @@ Legacy documentation is available [here](https://esgf.github.io/esgf-ansible/int
 **Metagrid user interface**
 To install the Metagrid UI for end-users to search and download data, read the documentation [here](https://metagrid.readthedocs.io/en/latest/) and see the Github repo [here](https://github.com/aims-group/metagrid)__don't know if these links need updating_?
 
-## 2. Preparation for publication
+## 2. Dataset publication 
+### Pre-requisites
+Publishers to ESGF **must** have an existing Data Node installed at their site. Although the publisher software (from v5.x) does not need to run on the Data Node it does require a __Data mount_ for the software to access data files. 
+
+### Publisher introduction 
+The esg-publisher or __esgcet_ Python package contains a collection of command-line utilities to scan, manipulate and push dataset metadata to an ESGF index node. 
+The publication process takes several steps with some optional steps. Publisher functionality is available via several submodles/classes in the package.
+Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en/stable/intro.html) and 
 
 ### 2.1 How to prepare your data for publication 
 
-## 3. Dataset publication and retraction
-### 3.1 Publication 
-### 3.2 Retraction 
+## 3. Dataset retraction
+### 3.1 Retraction process
+
 ## 4. Errata and data versioning
