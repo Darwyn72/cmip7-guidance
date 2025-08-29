@@ -14,7 +14,7 @@ The ESGF Data Node software stack enables sites hosting earth system data to mak
 
 **New and exisiting installations**
 
-For new or exisiting ESGF node installations, first read the [following document](www.esgf.com) _needs proper link_ on ESGF policies, as this will influence the type of installation you need to deploy. 
+For new or exisiting ESGF node installations, first read the [following document](www.esgf.com) _needs proper link and updating_ on ESGF policies, as this will influence the type of installation you need to deploy. 
 
 ### 1.2 How to install
 **Requirements, setup and usage documentation**
@@ -51,7 +51,7 @@ Please refer to the [user documentation](https://esg-publisher.readthedocs.io/en
 ### 2.3 ESG-Publisher software installation 
 **Requirements** 
 
-1. A python environment, e.g. create one using venv, conda, miniforge/mamba etc. 
+1. A python environment, using venv, conda, miniforge/mamba etc. 
 2. Mountpoint map to data on the same host as the publisher software installation, so the publisher scan utility (eg. autocurator) has access.
 3. Basic dataset information provided via the esg mapfile format. For example using the esgf-prepare/esgmapfile utility.
 
