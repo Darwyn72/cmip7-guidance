@@ -10,7 +10,7 @@ All information on Earth System Grid Federation (ESGF) can be found [here](https
 ### 1.1 ESGF Software
 **Description**
 
-The ESGF Data Node software stack enables sites hosting earth system data to make it available to the community over several transfer protocols including http(s). ~~Index nodes enable search for hosted data via data publishing to the index, and these nodes include a search API and web frontend~~. Identity nodes manage user accounts. Nodes run as Docker containers and can be deployed via Ansible Playbooks or Helm Charts in a Kubernetes environment
+The ESGF Data Node software stack enables sites hosting earth system data to make it available to the community over several transfer protocols including http(s). ~~Index nodes enable search for hosted data via data publishing to the index, and these nodes include a search API and web frontend~~._not sure this is relevant if indexing is deprecated_? Identity nodes manage user accounts. Nodes run as Docker containers and can be deployed via Ansible Playbooks or Helm Charts in a Kubernetes environment
 
 **New and exisiting installations**
 
