@@ -24,7 +24,8 @@ The ESGF software stack requires Linux RedHat Enterprise or Rocky/Alma distribut
 The services are meant to run on [webserver-grade hardware](www.exaple.com) _need a practical example here with cost estimate_. 
 For data-sharing nodes the storage holding your data must be mounted on the node. 
 
-**ESGF Docker** instructions and links to any issuses can be [found here](https://github.com/ESGF/esgf-docker/).
+**ESGF Docker** 
+Instructions and links to any issuses can be [found here](https://github.com/ESGF/esgf-docker/).
 
 **Ansible** 
 Legacy documentation is available [here](https://esgf.github.io/esgf-ansible/intro/intro.html) _is this still valid?_
