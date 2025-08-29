@@ -6,7 +6,7 @@ title: CMIP7 Participation Guidance for Data Managers
 # CMIP7 Participation for Data Managers
 
 ## 1. Installation and configuration
-All information on ESGF can be found at [this website](https://esgf.github.io/) __this needs updating?_
+All information on Earth System Grid Federation (ESGF) can be found [here](https://esgf.github.io/) _this needs updating?_
 ### 1.1 ESGF Software
 **Description**
 
@@ -14,14 +14,14 @@ The ESGF Data Node software stack enables sites hosting earth system data to mak
 
 **New and exisiting installations**
 
-For new or exisiting ESGF node installations, first read the [following document](www.esgf.com) _needs updated link!_ on ESGF policies, as this will influence the type of installation you need to deploy. 
+For new or exisiting ESGF node installations, first read the [following document](www.esgf.com) _needs proper link_ on ESGF policies, as this will influence the type of installation you need to deploy. 
 
 ### 1.2 How to install
 **Requirements, setup and usage documentation**
 
 **Software Stack**
 The ESGF software stack requires Linux RedHat Enterprise or Rocky/Alma distributions. Administrators must have full sudo privileges to root access or a Kubernetes Cluster.
-The services are meant to run on [webserver-grade hardware](www.exaple.com) _need a practical example here with costing estimate!_. 
+The services are meant to run on [webserver-grade hardware](www.exaple.com) _need a practical example here with cost estimate_. 
 For data-sharing nodes the storage holding your data must be mounted on the node. 
 
 **ESGF Docker** instructions and links to any issuses can be [found here](https://github.com/ESGF/esgf-docker/).
