@@ -1,7 +1,7 @@
 ---
 Layout: default 
 title: Metrics to quantify performance, energy use and carbon footprint of CMIP7 simulations 
-—--
+---
 
 # Guidance for Modelling Centres 
 
