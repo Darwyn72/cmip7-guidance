@@ -73,26 +73,26 @@ The results derived from this activity will be disseminated through a peer-revie
 - Parrallelisation, Number of CPU cores used for the simulation (unit: cores). Include the number of GPUs when applicable (e.g., 1000 cores + 20 GPUs).
 - Data Output Intensity, the data volume produced per compute hour (GB/core-hour), including all output generated during the simulation e.g. scientifically valuable data, restarts, logs, temporary files, etc. 
 
-        *Data Output Intensity = Output Volume (GB) / Core Hours*
+        Data Output Intensity = Output Volume (GB) / Core Hours
 
 - Number of 3D grid points used in the model integrations. 
 
 ### 3.4 Tier 3 (Optional) 
 - Complexity, the number of prognostic variables. For multi-component models complexity is the sum of the prognostic variables across all components, and if the value is not directly known for a component or model, it can be approximated using the restart file size and resolution: 
 
-       *Complexity = Sc / Gc / 8* 
+       Complexity = Sc / Gc / 8
 
        Where *Sc* = restart file size (bytes), *Gc* = number of grid points and *8* = bytes per variable assuming double precision. 
 
 - Data Output Cost, a ratio of the performance overhead due to the I/O. The measurement approach will depend on whether synchronous I/O or asynchronous I/O is used. 
 
-      For synchronous I/O:  *Data Output Cost = 1 - (CHSY_without_IO / CHSY)* 
+      For synchronous I/O: Data Output Cost = 1 - (CHSY_without_IO / CHSY)
 
-       Where CHSY = Core Hours per Simulated Year 
+      Where *CHSY* = Core Hours per Simulated Year 
 
-      For asynchronous I/O: *Data Output Cost = P~io~ / P 
+      For asynchronous I/O: Data Output Cost = P~io~ / P 
 
-       Where *P* = parrallelisation of I/O servers and *P~io~* = number of I/O processes
+      Where *P* = parrallelisation of I/O servers and *P~io~* = number of I/O processes
               
 - 
 - 
