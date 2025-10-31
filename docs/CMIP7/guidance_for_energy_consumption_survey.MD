@@ -33,7 +33,7 @@ The aim is to collect metrics across three categories of simulations:
 ## 2. Collection, Timeline and Dissemintation of the metrics
 
 ### 2.1 Collection 
-Access to an online spreadsheet will be provided to all modelling institutes. The spreadsheet will request the values of the metrics defined in the current document. The information collected will be maintained by Barcelona Supercomputing Centre and—depending on the agreed data-sharing policy—made available to participating modelling institutes. This shared dataset will serve as the foundation for subsequent analysis, intercomparison and reporting activities. Complete guidelines are available on [zenodo](https://zenodo.org/records/17464967). 
+Access to an online spreadsheet will be provided to all modelling institutes. The spreadsheet will request the values of the metrics defined in the current document. The information collected will be maintained by Barcelona Supercomputing Centre and—depending on the agreed data-sharing policy—made available to participating modelling institutes. This shared dataset will serve as the foundation for subsequent analysis, intercomparison and reporting activities. **Complete guidelines are available on [zenodo](https://zenodo.org/records/17464967)**. 
 
 ### 2.2 Timeline 
 Initial collection phase covering CMIP7 AFT simulations. Confirmation by the modelling centres that they can access the spreadsheet and understand the information provided, by January 2026.
