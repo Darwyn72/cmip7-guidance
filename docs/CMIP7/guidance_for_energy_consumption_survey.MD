@@ -90,9 +90,9 @@ For synchronous I/O: *Data Output Cost = 1 - (CHSY_without_IO / CHSY)*
 
 Where *CHSY* = Core Hours per Simulated Year 
 
-For asynchronous I/O: *Data Output Cost = Pi~o / P* 
+For asynchronous I/O: *Data Output Cost = Pio / P* 
 
-Where *P* = parrallelisation of I/O servers and *P~io* = number of I/O processes
+Where *P* = parrallelisation of I/O servers and *Pio* = number of I/O processes
 
 **Always specify whether the model uses synchronous or asynchronous I/O.**
               
@@ -104,9 +104,9 @@ Where *core_hours_coupled* = core-hours spent by the coupled simulation and *cor
 
 - Memory Bloat, this is the ratio of actual memory size to the ideal memory use. 
 
-*Memory Bloat = (M~r - M~i) / M~o* 
+*Memory Bloat = (Mr - Mi) / Mo* 
 
-Where *M~r* = runtime memory usage or Resident Set Size (RSS), *M~i* = memory devoted to instructions as executable file size x number of processes and *M~o* = approximate ideal memory size using the combined size of all restart files. 
+Where *Mr* = runtime memory usage or Resident Set Size (RSS), *Mi* = memory devoted to instructions as executable file size x number of processes and *Mo* = approximate ideal memory size using the combined size of all restart files. 
 
 ### Please refer to the complete guidelines on [zenodo](https://zenodo.org/records/17464967) for a full description of these metrics 
 
