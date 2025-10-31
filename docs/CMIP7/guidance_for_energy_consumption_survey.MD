@@ -73,7 +73,7 @@ The results derived from this activity will be disseminated through a peer-revie
 - Parrallelisation, Number of CPU cores used for the simulation (unit: cores). Include the number of GPUs when applicable (e.g., 1000 cores + 20 GPUs).
 - Data Output Intensity, the data volume produced per compute hour (GB/core-hour), including all output generated during the simulation e.g. scientifically valuable data, restarts, logs, temporary files, etc. 
 
-        Data Output Intensity = Output Volume (GB) / Core Hours
+*Data Output Intensity = Output Volume (GB) / Core Hours*
 
 - Number of 3D grid points used in the model integrations. 
 
