@@ -8,7 +8,7 @@ title: Metrics to quantify performance, energy use and carbon footprint of CMIP7
 ## 1. Background 
 Climate simulations are becoming increasingly complex, with each CMIP phase introducing more sophisticated models, a greater number of experiments, and larger ensembles, leading to a continuous rise in computational requirements. Efforts to systematically quantify the computational cost, energy use, and environmental impact of CMIP activities have been limited. The [Energy Consumtion and Carbon Footprint Task Team](https://wcrp-cmip.org/cmip7-task-teams/energy-consumption/) was established to address this gap by measuring and reporting these aspects for the upcoming CMIP7 phase.
 
-The Computational Performance for Model Intercomparison Project (CPMIP) defines a standardised set of metrics for evaluating ESMs and their execution on HPC platforms. CPMIP metrics relate to runtime performance (e.g., throughput, computational cost, coupling, I/O) for a given model configuration (e.g., resolution, complexity, parallelisation). 
+[The Computational Performance for Model Intercomparison Project (CPMIP)](https://gmd.copernicus.org/articles/10/19/2017/) defines a standardised set of metrics for evaluating ESMs and their execution on HPC platforms. CPMIP metrics relate to runtime performance (e.g., throughput, computational cost, coupling, I/O) for a given model configuration (e.g., resolution, complexity, parallelisation). 
 
 All modelling centres participating in CMIP7 are asked to provide these metrics for the experiments they are running for the CMIP7 Assessment Fast Track and community MIPs, and the energy consumption to help assess the carbon footprint. These metrics are divided into Tiers reflecting collection effort and analytical value: 
 
@@ -33,7 +33,7 @@ The aim is to collect metrics across three categories of simulations:
 ## 2. Collection, Timeline and Dissemintation of the metrics
 
 ### 2.1 Collection 
-Access to an online spreadsheet will be provided to all modelling institutes. The spreadsheet will request the values of the metrics defined in the current document. The information collected will be maintained by Barcelona Supercomputing Centre and—depending on the agreed data-sharing policy—made available to participating modelling institutes. This shared dataset will serve as the foundation for subsequent analysis, intercomparison and reporting activities.
+Access to an online spreadsheet will be provided to all modelling institutes. The spreadsheet will request the values of the metrics defined in the current document. The information collected will be maintained by Barcelona Supercomputing Centre and—depending on the agreed data-sharing policy—made available to participating modelling institutes. This shared dataset will serve as the foundation for subsequent analysis, intercomparison and reporting activities. Complete guidelines are available on [zenodo](https://zenodo.org/records/17464967). 
 
 ### 2.2 Timeline 
 Initial collection phase covering CMIP7 AFT simulations. Confirmation by the modelling centres that they can access the spreadsheet and understand the information provided, by January 2026.
@@ -48,15 +48,22 @@ The results derived from this activity will be disseminated through a peer-revie
 
 ## 3. The metrics 
 
-### 3.1 General 
+### 3.1 General Information (**Mandatory**). 
+## 3.1.1 Modelling group name or contact name.
+## 3.1.2 Location (city and country).
+## 3.1.3 HPC platform name.
+## 3.1.4 [Power Usage Effectiveness](https://edgebuildings.com/wp-content/uploads/2024/03/240313-EDGE-Certification-for-Data-Centers-V4.pdf?lang=es) (PUE) metric describing the HPC's energy efficiency 
+## 3.1.5 Emission Factor for the energy used by the computing centre, the carbon dioxide emissions produced per unit of a specific energy source (kgCO2/MWh).
+
+**Encouraged metric**
+## 3.1.6 Energy Mix of the HPC. Site-specific energy mix, expressed as the percentage share of primary energy sources (e.g., coal, natural gas, nuclear, hydro, wind, solar). 
+
+### 3.2 Tier 1 (Mandatory) 
 
 
-### 3.2 Tier 1
+
+### 3.3 Tier 2 (Recommended) 
 
 
 
-### 3.3 Tier 2 
-
-
-
-### 3.4 Tier 3 
+### 3.4 Tier 3 (Optional) 
