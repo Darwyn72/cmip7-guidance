@@ -61,15 +61,24 @@ The results derived from this activity will be disseminated through a peer-revie
 ### 3.2 Tier 1 (Mandatory) 
 - Experiment Type (production, tuning or discarded run)
 - For producton runs indicate the accpeted experiment name from the [CMIP7 Data Request](https://airtable.com/appOcSa4gXyzHThmm/shrkayKObes58Zu45/tbloQs9ZQUxX1Mj2y/viwgifLeWmoLJJ59m).
-- Number of simulated years
+- Number of simulated years. 
 - Number of core-hours consumed by the experiment, i.e. the number of cores used to run the model multiplied by the elapsed time of the run. 
 - Data output in GB. Volume of data stored to HPC disk even if temporary and not stored afterwards. 
-- Energy consumed by the experiment job in megajoules. Recommend using hardware counters (e.g., Intel RAPL or IPMI via Baseboard Management Controller (BMC) for CPUs, NVIDIA’s NVML library or ROCm-SMI for GPUs).
--- ccc
+- Energy consumed by the experiment job in megajoules. Recommend using hardware counters (e.g., Intel RAPL or IPMI via Baseboard Management Controller (BMC) for CPUs, NVIDIA’s NVML library or ROCm-SMI for GPUs). Report dynamic energy (energy consumed solely by the application workload) and total energy (energy consumed by the application plus idle energy). 
 
-
-### 3.3 Tier 2 (Recommended) 
-
-
+### 3.3 Tier 2 (Encouraged) 
+- SYPD (Simulated Years Per Day). 
+- QSYPD (Queue SYPD) Simulated years per day including both queue time and run time. 
+- RSYPD (Real SYPD) Simulated years per day including queue time, run time, system interruptions and workflow errors. 
+- Parrallelisation, Number of CPU cores used for the simulation (unit: cores). Include the number of GPUs when applicable (e.g., 1000 cores + 20 GPUs).
+- Data Output Intensity, the data volume produced per compute hour (GB/core-hour), including all output generated during the simulation e.g. scientifically valuable data, restarts, logs, temporary files, etc. 
+        *Data Output Intensity = Output Volume (GB) / Core Hours*
+- Number of 3D grid points used in the model integrations. 
 
 ### 3.4 Tier 3 (Optional) 
+- Complexity, 
+- 
+- 
+- 
+- 
+
