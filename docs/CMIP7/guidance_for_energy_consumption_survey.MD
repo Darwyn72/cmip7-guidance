@@ -56,10 +56,16 @@ The results derived from this activity will be disseminated through a peer-revie
 - Emission Factor for the energy used by the computing centre, the carbon dioxide emissions produced per unit of a specific energy source (kgCO2/MWh).
 
 **Encouraged metric**
-- Energy Mix of the HPC. Site-specific energy mix, expressed as the percentage share of primary energy sources (e.g., coal, natural gas, nuclear, hydro, wind, solar). 
+- Energy Mix of the HPC. Site-specific energy mix, expressed as the percentage share of primary energy sources (e.g., coal, natural gas, nuclear, hydro, wind, solar). Recommend using averaged values over the most recent full-calendar year 
 
 ### 3.2 Tier 1 (Mandatory) 
-
+- Experiment Type (production, tuning or discarded run)
+- For producton runs indicate the accpeted experiment name from the [CMIP7 Data Request](https://airtable.com/appOcSa4gXyzHThmm/shrkayKObes58Zu45/tbloQs9ZQUxX1Mj2y/viwgifLeWmoLJJ59m).
+- Number of simulated years
+- Number of core-hours consumed by the experiment, i.e. the number of cores used to run the model multiplied by the elapsed time of the run. 
+- Data output in GB. Volume of data stored to HPC disk even if temporary and not stored afterwards. 
+- Energy consumed by the experiment job in megajoules. Recommend using hardware counters (e.g., Intel RAPL or IPMI via Baseboard Management Controller (BMC) for CPUs, NVIDIA’s NVML library or ROCm-SMI for GPUs).
+-- ccc
 
 
 ### 3.3 Tier 2 (Recommended) 
