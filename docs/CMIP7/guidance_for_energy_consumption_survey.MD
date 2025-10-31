@@ -90,11 +90,23 @@ For synchronous I/O: *Data Output Cost = 1 - (CHSY_without_IO / CHSY)*
 
 Where *CHSY* = Core Hours per Simulated Year 
 
-For asynchronous I/O: Data Output Cost = P~io~ / P 
+For asynchronous I/O: *Data Output Cost = P~io / P* 
 
-Where *P* = parrallelisation of I/O servers and *P~io~* = number of I/O processes
+Where *P* = parrallelisation of I/O servers and *P~io* = number of I/O processes
+
+**Always specify whether the model uses synchronous or asynchronous I/O.**
               
-- 
-- 
-- 
+- Coupling Cost, the ratio of the computational overhead due to coupling and load imbalance. Concurrent Coupling is when the different components run on separate cores in parallel, and Sequential Coupling is when the different components run on the same cores one after the other. 
+
+*Coupling Cost = 1 - (core_hours_coupled / sum of core_hours_standalone)* 
+
+Where *core_hours_coupled* = core-hours spent by the coupled simulation and *core_hours_standalone* = sum of the individual components standalone core-hours
+
+- Memory Bloat, this is the ratio of actual memory size to the ideal memory use. 
+
+*Memory Bloat = (M~r - M~i) / M~o* 
+
+Where *M~r* = runtime memory usage or Resident Set Size (RSS), *M~i* = memory devoted to instructions as executable file size x number of processes and *M~o* = approximate ideal memory size using the combined size of all restart files. 
+
+### Please refer to the complete guidelines on [zenodo](https://zenodo.org/records/17464967) for a full description of these metrics 
 
