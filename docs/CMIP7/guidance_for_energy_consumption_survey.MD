@@ -48,15 +48,15 @@ The results derived from this activity will be disseminated through a peer-revie
 
 ## 3. The metrics 
 
-### 3.1 General Information (**Mandatory**). 
-### 3.1.1 Modelling group name or contact name.
-### 3.1.2 Location (city and country).
-### 3.1.3 HPC platform name.
-### 3.1.4 [Power Usage Effectiveness](https://edgebuildings.com/wp-content/uploads/2024/03/240313-EDGE-Certification-for-Data-Centers-V4.pdf?lang=es) (PUE) metric describing the HPC's energy efficiency 
-### 3.1.5 Emission Factor for the energy used by the computing centre, the carbon dioxide emissions produced per unit of a specific energy source (kgCO2/MWh).
+### 3.1 General Information (Mandatory). 
+- Modelling group name or contact name.
+- Location (city and country).
+- HPC platform name.
+- [Power Usage Effectiveness](https://edgebuildings.com/wp-content/uploads/2024/03/240313-EDGE-Certification-for-Data-Centers-V4.pdf?lang=es) (PUE) metric describing the HPC's energy efficiency 
+- Emission Factor for the energy used by the computing centre, the carbon dioxide emissions produced per unit of a specific energy source (kgCO2/MWh).
 
 **Encouraged metric**
-### 3.1.6 Energy Mix of the HPC. Site-specific energy mix, expressed as the percentage share of primary energy sources (e.g., coal, natural gas, nuclear, hydro, wind, solar). 
+- Energy Mix of the HPC. Site-specific energy mix, expressed as the percentage share of primary energy sources (e.g., coal, natural gas, nuclear, hydro, wind, solar). 
 
 ### 3.2 Tier 1 (Mandatory) 
 
