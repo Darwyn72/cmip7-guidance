@@ -90,7 +90,7 @@ For synchronous I/O: *Data Output Cost = 1 - (CHSY_without_IO / CHSY)*
 
 Where *CHSY* = Core Hours per Simulated Year 
 
-For asynchronous I/O: *Data Output Cost = P~io / P* 
+For asynchronous I/O: *Data Output Cost = Pi~o / P* 
 
 Where *P* = parrallelisation of I/O servers and *P~io* = number of I/O processes
 
